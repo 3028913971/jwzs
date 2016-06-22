@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/cjcx_kcmc_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="课程名称"
+        android:textSize="18sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/cjcx_xf_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="学分"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/cjcx_kcmc_title"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/cjcx_jd_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绩点"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/cjcx_xf_title"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

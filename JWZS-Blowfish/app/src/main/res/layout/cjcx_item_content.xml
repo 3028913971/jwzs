@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/cjcx_title_xn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cjcx_content_xn"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/cjcx_content_xn"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/cjcx_title_xn"/>
+
+        <TextView
+            android:id="@+id/cjcx_title_xq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cjcx_content_xq"
+            android:layout_below="@id/cjcx_title_xn"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/cjcx_content_xq"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/cjcx_title_xq"
+            android:layout_below="@id/cjcx_content_xn"/>
+
+        <TextView
+            android:id="@+id/cjcx_title_kcdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cjcx_content_kcdm"
+            android:layout_below="@id/cjcx_title_xq"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/cjcx_content_kcdm"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/cjcx_title_kcdm"
+            android:layout_below="@id/cjcx_content_xq"/>
+
+        <TextView
+            android:id="@+id/cjcx_title_kcmc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cjcx_content_kcmc"
+            android:layout_below="@id/cjcx_title_kcdm"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/cjcx_content_kcmc"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/cjcx_title_kcmc"
+            android:layout_below="@id/cjcx_content_kcdm"/>
+
+        <TextView
+            android:id="@+id/cjcx_title_kcxz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cjcx_content_kcxz"
+            android:layout_below="@id/cjcx_title_kcmc"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/cjcx_content_kcxz"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/cjcx_title_kcxz"
+            android:layout_below="@id/cjcx_content_kcmc"/>
+
+        <TextView
+            android:id="@+id/cjcx_title_kcgs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cjcx_content_kcgs"
+            android:layout_below="@id/cjcx_title_kcxz"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/cjcx_content_kcgs"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/cjcx_title_kcgs"
+            android:layout_below="@id/cjcx_content_kcxz"/>
+
+        <TextView
+            android:id="@+id/cjcx_title_xf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cjcx_content_xf"
+            android:layout_below="@id/cjcx_title_kcgs"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/cjcx_content_xf"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/cjcx_title_xf"
+            android:layout_below="@id/cjcx_content_kcgs"/>
+
+        <TextView
+            android:id="@+id/cjcx_title_jd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cjcx_content_jd"
+            android:layout_below="@id/cjcx_title_xf"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/cjcx_content_jd"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/cjcx_title_jd"
+            android:layout_below="@id/cjcx_content_xf"/>
+
+        <TextView
+            android:id="@+id/cjcx_title_cj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cjcx_content_cj"
+            android:layout_below="@id/cjcx_title_jd"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/cjcx_content_cj"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/cjcx_title_cj"
+            android:layout_below="@id/cjcx_content_jd"/>
+
+        <TextView
+            android:id="@+id/cjcx_title_bkcj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cjcx_content_bkcj"
+            android:layout_below="@id/cjcx_title_cj"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/cjcx_content_bkcj"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/cjcx_title_bkcj"
+            android:layout_below="@id/cjcx_content_cj"/>
+
+        <TextView
+            android:id="@+id/cjcx_title_cxcj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cjcx_content_cxcj"
+            android:layout_below="@id/cjcx_title_bkcj"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/cjcx_content_cxcj"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/cjcx_title_cxcj"
+            android:layout_below="@id/cjcx_content_bkcj"/>
+
+        <TextView
+            android:id="@+id/cjcx_title_kkxy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cjcx_content_kkxy"
+            android:layout_below="@id/cjcx_title_cxcj"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/cjcx_content_kkxy"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/cjcx_title_kkxy"
+            android:layout_below="@id/cjcx_content_cxcj"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

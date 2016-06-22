@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_kbcx"
+            android:icon="@mipmap/ic_format_list_bulleted_black"
+            android:title="@string/nav_kbcx" />
+
+        <item
+            android:id="@+id/nav_cjcx"
+            android:icon="@mipmap/ic_subject_black"
+            android:title="@string/nav_cjcx" />
+
+    </group>
+
+    <item android:title=""
+        >
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@mipmap/ic_settings_black"
+                android:title="@string/nav_setting"/>
+
+            <item
+                android:id="@+id/nav_send_message"
+                android:icon="@mipmap/ic_chat_bubble_outline_black"
+                android:title="@string/nav_sendmessage"/>
+
+        </menu>
+    </item>
+</menu>
