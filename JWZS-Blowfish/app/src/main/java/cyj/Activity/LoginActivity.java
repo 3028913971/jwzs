@@ -186,13 +186,15 @@ public class LoginActivity extends AppCompatActivity
 
             case R.id.see_password:
                 if (isSee == false){
+                    LogUtil.e(TAG, "isSee= " + isSee);
                     isSee = true;
                     passwordLayout.getEditText()
-                            .setTransformationMethod(PasswordTransformationMethod.getInstance());
+                            .setTransformationMethod(HideReturnsTransformationMethod.getInstance());
                 }else {
+                    LogUtil.e(TAG, "isSee= " + isSee);
                     isSee = false;
                     passwordLayout.getEditText()
-                            .setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                            .setTransformationMethod(PasswordTransformationMethod.getInstance());
                 }
                 break;
         }
