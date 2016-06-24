@@ -26,7 +26,7 @@ import Model.GradeModel;
 public class HttpUtil {
 
     //主页面网址
-    private final static String url_index = "http://jw1.wucc.cn/default2.aspx";
+    private final static String url_index = "http://jw1.wucc.cn:2222/default2.aspx";
 
     //验证码网址
     private final static String url_checkcode = "http://jw1.wucc.cn/CheckCode.aspx";
@@ -140,14 +140,14 @@ public class HttpUtil {
     private void _getCourse(){
         String url_course = null;
         try {
-            url_course = "http://jw1.wucc.cn/xskbcx.aspx?" +
+            url_course = "http://jw1.wucc.cn:2222/xskbcx.aspx?" +
                     "xh=" + xsxh + "&" +
                     "xm=" + URLEncoder.encode(xsxm, "gb2312") + "&" +
                     "gnmkdm=N121603";
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
-        String referer = "http://jw1.wucc.cn/xs_main.aspx?xh=" + xsxh;
+        String referer = "http://jw1.wucc.cn:2222/xs_main.aspx?xh=" + xsxh;
         InputStream is = null;
         OutputStream os = null;
         try {
@@ -279,7 +279,7 @@ public class HttpUtil {
     private void _downGradeViewstate(){
         String url_grade = null;
         try {
-            url_grade = "http://jw1.wucc.cn/xscjcx.aspx?" +
+            url_grade = "http://jw1.wucc.cn:2222/xscjcx.aspx?" +
                     "xh=" + xsxh + "&xm=" +
                     URLEncoder.encode(xsxm, "gb2312")+
                     "&gnmkdm=N121605";
@@ -287,7 +287,7 @@ public class HttpUtil {
             e.printStackTrace();
         }
 
-        String referer = "http://jw1.wucc.cn/xs_main.aspx?xh=" + xsxh;
+        String referer = "http://jw1.wucc.cn:2222/xs_main.aspx?xh=" + xsxh;
         InputStream is = null;
         OutputStream os = null;
         try {
@@ -346,7 +346,7 @@ public class HttpUtil {
         String btn_zcj_str = null;
         String gradeViewstate = null;
         try {
-            url_grade = "http://jw1.wucc.cn/xscjcx.aspx?" +
+            url_grade = "http://jw1.wucc.cn:2222/xscjcx.aspx?" +
                     "xh=" + xsxh + "&xm=" +
                     URLEncoder.encode(xsxm, "gb2312")+
                     "&gnmkdm=N121605";
